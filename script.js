@@ -5,8 +5,8 @@ const main = document.getElementById('main');
 const userBtn = document.getElementById('userBtn');
 const dropdown = document.querySelector('.dropdown-menu');
 
-console.log(userBtn); 
-console.log(dropdown);
+
+// agregar lel vento clik al manu
 menu.addEventListener('click', () => {
     sidevar.classList.toggle('menu-toggle');
     main.classList.toggle('menu-toggle'); 
@@ -16,7 +16,7 @@ menu.addEventListener('click', () => {
         menuIcon.textContent = 'menu';
     }
 });
-
+//agregar el evento click al boton de usuario para desplegar el 
 userBtn.addEventListener('click', (e) => {
      e.preventDefault(); // evita salto del <a>
     dropdown.classList.toggle('active');
